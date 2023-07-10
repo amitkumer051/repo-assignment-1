@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    height: 850px;
+    width: aoto;
+    padding: 40px 200px 0 200px;
+}
+.main-content{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    width: 708px;
+}
+.header-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    width: 634px;
+    margin: 32px 0;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    color: #f1f1f1;
+    font-size: 20px;
+}
+.profile-image{
+    width: 635px;
+    height: 850px;
+}
