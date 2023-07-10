@@ -38,3 +38,51 @@ body{
     width: 635px;
     height: 850px;
 }
+.main-section{
+    text-align: center;
+}
+.main-con{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin: 150px 0 24px 0;
+}
+.main-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    width: 594px;
+    margin: auto;
+}
+.include-main-image {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    padding: 0 400px;
+}
+.sub-flower{
+    width: 464px;
+    height: 538px;
+    border: 1px solid black;
+    border-radius: 300px 300px 0 0 ;
+}
+.fl-cap{
+    text-align: center;
+    text-decoration: underline;
+}
+.hot-sale{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 100px 450px ;
+}
+.btn-primary{
+    text-align: center;
+    margin: 24px 0;
+}
+.sale-of-flower{
+    padding-right: 200px;
+}
