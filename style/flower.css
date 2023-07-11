@@ -3,7 +3,35 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+.navi-bar{
+    background: aqua;
+    height: 60px;
+    width: 100%;
+}
+.navi-bar > ul{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 
+}
+.navi-bar li{
+    padding: 1px;
+    list-style-type: none;
+    border: 1px solid white;
+    border: none;
+}
+.navi-bar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(38, 37, 64);
+    font-size: 13px;
+    padding: 15px;
+
+}
+.navi-bar li:hover a{
+    background-color:rgb(74, 34, 33) ;
+    color: white;
+}
 .container {
     display: flex;
     justify-content: space-around;
