@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -141,24 +142,28 @@
     font-weight: 400px;
     line-height: 30px;
 }
-.container-deal{
+
+.container-deal {
     width: 1500px;
     height: 500px;
     position: relative;
     margin: 100px auto;
 
 }
-.container-deal img{
+
+.container-deal img {
     width: 1500px;
     height: 500px;
 }
-.over-image{
+
+.over-image {
     top: 40%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-input[type="email"]{
+
+input[type="email"] {
     width: 600px;
     height: 42px;
     border-radius: 8px;
@@ -166,11 +171,46 @@ input[type="email"]{
     font-size: 16px;
     margin: auto;
     padding: 10px;
-} 
-.text-button{
+}
+
+.text-button {
     display: flex;
     gap: 10px;
 }
+
 #bottom {
     margin-bottom: 20px;
+}
+
+.footer-container {
+    width: auto;
+    height: 449px;
+    background: #111010;
+    padding-top: 250px;
+}
+
+.ft-con {
+    color: white;
+    text-align: center;
+}
+
+.footer-head {
+    font-size: 48px;
+    line-height: normal;
+}
+
+.fl-shop {
+    color: #E55473;
+}
+
+.foot-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px;
+}
+.foot-res{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
 }
