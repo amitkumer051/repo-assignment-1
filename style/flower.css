@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
@@ -13,20 +15,26 @@ body{
     width: aoto;
     padding: 40px 200px 0 200px;
 }
-.main-content{
+
+.main-content {
     color: #272727;
     font-family: Lato;
     font-size: 80px;
     width: 708px;
 }
-.header-des{
+
+.header-des {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     width: 634px;
-    margin: 32px 0;
+    margin: 32px 0 10px 0;
+    font-weight: 400;
+    line-height: 30px;
 }
-.btn-primary{
+
+.btn-primary {
+    margin: 0;
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
@@ -34,55 +42,116 @@ body{
     color: #f1f1f1;
     font-size: 20px;
 }
-.profile-image{
+
+.profile-image {
     width: 635px;
     height: 850px;
 }
-.main-section{
+
+.main-section {
     text-align: center;
 }
-.main-con{
+
+.main-con {
     color: #272727;
     text-align: center;
     font-size: 40px;
     margin: 150px 0 24px 0;
 }
-.main-des{
+
+.main-des {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     width: 594px;
     margin: auto;
 }
-.include-main-image {
+
+.flower-container {
     display: flex;
-    justify-content:space-around;
-    align-items: center;
     margin: auto;
-    padding: 0 400px;
+    max-width: 50%;
+    justify-content: space-around;
 }
-.sub-flower{
-    width: 464px;
-    height: 538px;
-    border: 1px solid black;
-    border-radius: 300px 300px 0 0 ;
+
+.flower-image1 {
+    width: 250px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 60px 80px 0 80px;
+    margin: 40px 10px 30px 10px;
 }
-.fl-cap{
+
+.flower-image2 {
+    width: 250px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 60px 80px 0 80px;
+    margin: 40px 10px 30px 10px;
+}
+
+.flower-image3 {
+    width: 250px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 60px 80px 0 80px;
+    margin: 40px 10px 30px 10px;
+}
+
+.flower-caption {
+    color: #272727;
     text-align: center;
-    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 0 0 150px 0;
 }
-.hot-sale{
+
+.hot-sale {
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     text-align: center;
     justify-content: space-evenly;
-    padding: 100px 450px ;
+    padding: 100px 450px;
 }
-.btn-primary{
+
+.btn-primary {
     text-align: center;
     margin: 24px 0;
 }
-.sale-of-flower{
+
+.sale-of-flower {
     padding-right: 200px;
+}
+
+.rec-image {
+    display: flex;
+    margin: auto;
+    max-width: 50%;
+    justify-content: space-around;
+}
+
+.flower-varient {
+    margin: 40px 20px;
+}
+
+.main-des {
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.letest-deal{
+    margin: 128px 240px;
+}
+.last-flower {
+    width: 1500px;
+    height: 500px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
 }
