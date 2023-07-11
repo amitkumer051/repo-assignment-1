@@ -1,11 +1,8 @@
-* {
+*{
     margin: 0;
-}
-
-body {
+    padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
 .container {
     display: flex;
     justify-content: space-around;
@@ -141,17 +138,39 @@ body {
 }
 
 .main-des {
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 30px;
 }
-
-.letest-deal{
-    margin: 128px 240px;
-}
-.last-flower {
+.container-deal{
     width: 1500px;
     height: 500px;
+    position: relative;
+    margin: 100px auto;
+
+}
+.container-deal img{
+    width: 1500px;
+    height: 500px;
+}
+.over-image{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+input[type="email"]{
+    width: 600px;
+    height: 42px;
     border-radius: 8px;
-    display: block;
+    background: #FFF;
+    font-size: 16px;
     margin: auto;
+    padding: 10px;
+} 
+.text-button{
+    display: flex;
+    gap: 10px;
+}
+#bottom {
+    margin-bottom: 20px;
 }
