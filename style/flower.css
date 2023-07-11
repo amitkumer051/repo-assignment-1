@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
@@ -9,41 +9,40 @@
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
     align-items: center;
-    height: 850px;
-    width: aoto;
-    padding: 40px 200px 0 200px;
+    height: 425px;
+    width: auto;
+    padding: 20px 100px 0 100px;
 }
 
 .main-content {
     color: #272727;
-    font-family: Lato;
-    font-size: 80px;
-    width: 708px;
+    font-size: 48px;
+    width: 400px;
+    color: #272727;
 }
 
 .header-des {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-    font-size: 18px;
-    width: 634px;
-    margin: 32px 0 10px 0;
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 14px;
+    width: 470px;
+    margin: 16px 0 5px 0;
+    line-height: 22px;
 }
 
 .btn-primary {
     margin: 0;
-    border-radius: 8px;
+    border-radius: 5px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 8px 14px;
     border: 0;
     color: #f1f1f1;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .profile-image {
-    width: 635px;
-    height: 850px;
+    width: 335px;
+    height: 425px;
 }
 
 .main-section {
@@ -53,16 +52,17 @@
 .main-con {
     color: #272727;
     text-align: center;
-    font-size: 40px;
-    margin: 150px 0 24px 0;
+    font-size: 28px;
+    margin: 75px 0 12px 0;
 }
 
 .main-des {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
-    width: 594px;
+    font-size: 14px;
+    width: 470px;
     margin: auto;
+    line-height: 22px;
 }
 
 .flower-container {
@@ -73,40 +73,38 @@
 }
 
 .flower-image1 {
-    width: 250px;
-    height: 350px;
+    width: 125px;
+    height: 175px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 60px 80px 0 80px;
-    margin: 40px 10px 30px 10px;
+    padding: 30px 40px 0 40px;
+    margin: 20px 5px 15px 5px;
 }
 
 .flower-image2 {
-    width: 250px;
-    height: 350px;
+    width: 125px;
+    height: 175px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 60px 80px 0 80px;
-    margin: 40px 10px 30px 10px;
+    padding: 30px 40px 0 40px;
+    margin: 20px 5px 15px 5px;
 }
 
 .flower-image3 {
-    width: 250px;
-    height: 350px;
+    width: 125px;
+    height: 175px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 60px 80px 0 80px;
-    margin: 40px 10px 30px 10px;
+    padding: 30px 40px 0 40px;
+    margin: 20px 5px 15px 5px;
 }
 
 .flower-caption {
     color: #272727;
     text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 35px;
+    font-size: 14px;
     text-decoration-line: underline;
-    margin: 0 0 150px 0;
+    margin: 0 0 75px 0;
 }
 
 .hot-sale {
@@ -115,45 +113,47 @@
     background: rgba(229, 84, 115, 0.05);
     text-align: center;
     justify-content: space-evenly;
-    padding: 100px 450px;
+    padding: 50px 225px;
+}
+.pink{
+    color: #E55473;
 }
 
 .btn-primary {
     text-align: center;
-    margin: 24px 0;
+    margin: 12px 0;
 }
 
 .sale-of-flower {
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 .rec-image {
     display: flex;
     margin: auto;
-    max-width: 50%;
-    justify-content: space-around;
+    max-width: fit-content;
 }
-
 .flower-varient {
-    margin: 40px 20px;
+    margin: 15px 5px;
+    height: auto;
+    width: 180px;
 }
 
 .main-des {
-    font-weight: 400px;
-    line-height: 30px;
+    font-weight: 200px;
 }
 
 .container-deal {
-    width: 1500px;
-    height: 500px;
+    width: 750px;
+    height: 250px;
     position: relative;
-    margin: 100px auto;
+    margin: 50px auto;
 
 }
 
 .container-deal img {
-    width: 1500px;
-    height: 500px;
+    width: 750px;
+    height: 250px;
 }
 
 .over-image {
@@ -164,29 +164,29 @@
 }
 
 input[type="email"] {
-    width: 600px;
-    height: 42px;
+    width: 300px;
+    height: 21px;
     border-radius: 8px;
     background: #FFF;
     font-size: 16px;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
 }
 
 .text-button {
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 
 #bottom {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-container {
     width: auto;
-    height: 449px;
+    height: 250px;
     background: #111010;
-    padding-top: 250px;
+    padding-top: 125px;
 }
 
 .ft-con {
@@ -195,7 +195,7 @@ input[type="email"] {
 }
 
 .footer-head {
-    font-size: 48px;
+    font-size: 35px;
     line-height: normal;
 }
 
@@ -205,12 +205,12 @@ input[type="email"] {
 
 .foot-description {
     color: rgba(255, 255, 255, 0.90);
-    font-size: 18px;
-    line-height: 30px;
-    margin: 30px;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 15px;
 }
 .foot-res{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 }
